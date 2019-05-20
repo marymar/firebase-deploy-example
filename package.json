@@ -4,6 +4,7 @@
   "description": "Front-End of Whiteboard to Code",
   "main": "index.js",
   "scripts": {
+    "build": "copyfiles src/*.html public --flat",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -15,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/devconnecthh/whiteboard-to-code-frontend/issues"
   },
-  "homepage": "https://github.com/devconnecthh/whiteboard-to-code-frontend#readme"
+  "homepage": "https://github.com/devconnecthh/whiteboard-to-code-frontend#readme",
+  "dependencies": {
+    "copyfiles": "^2.1.0"
+  }
 }
